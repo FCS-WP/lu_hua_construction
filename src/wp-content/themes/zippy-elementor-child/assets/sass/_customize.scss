@@ -1,0 +1,15 @@
+.shadow-box {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.banner-heading{
+  margin-top: 100px;
+  @include tablet {
+    margin-top: 100px;
+  }
+  @include desktop {
+    margin-top: 0px;
+  }
+}
+.woocommerce-mini-cart__empty-message{
+    font-size: 18px !important;
+}

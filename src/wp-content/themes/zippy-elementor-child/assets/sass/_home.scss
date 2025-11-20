@@ -1,0 +1,29 @@
+#homepage-partner-images {
+  .elementor-widget-image {
+    img {
+      aspect-ratio: 1/1;
+    }
+  }
+}
+#homepage_banner {
+  #hompage-banner-slider {
+    .swiper-slide-inner {
+      width: 1140px;
+      .swiper-slide-contents {
+        margin-top: 100px;
+        padding-left: 10px;
+        @include tablet {
+          margin-top: 100px;
+          padding-left: 10px;
+        }
+        @include desktop {
+          margin-top: 0px;
+          padding-left: 0px;
+        }
+      }
+    }
+  }
+}
+.homepage-portfolio-block {
+  overflow: hidden;
+}

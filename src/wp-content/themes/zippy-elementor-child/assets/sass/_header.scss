@@ -1,0 +1,10 @@
+#header-block {
+  .elementor-button-icon-qty {
+    right: -10px;
+    top: 0px;
+    @include desktop {
+      right: -10px;
+      top: 18px;
+    }
+  }
+}

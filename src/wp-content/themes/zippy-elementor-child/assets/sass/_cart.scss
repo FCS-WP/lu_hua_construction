@@ -1,0 +1,42 @@
+#cart-block {
+  font-family: var(--e-global-typography-primary-font-family);
+  span,
+  bdi {
+    color: var(--e-global-color-63559f0);
+  }
+  .woocommerce-cart-form {
+    thead {
+      background-color: var(--e-global-color-63559f0);
+      color: var(--e-global-color-accent);
+    }
+    .product-name {
+      a {
+        color: var(--e-global-color-63559f0);
+      }
+    }
+    .coupon {
+      button {
+        border: 2px solid var(--e-global-color-63559f0);
+        padding: 9px 15px;
+        background-color: var(--e-global-color-63559f0);
+        color: var(--e-global-color-accent);
+        &:hover {
+          background-color: var(--e-global-color-accent);
+          color: var(--e-global-color-63559f0);
+          border-color: var(--e-global-color-63559f0);
+        }
+      }
+    }
+  }
+  .checkout-button {
+    border: 2px solid var(--e-global-color-63559f0);
+    padding: 15px 15px;
+    background-color: var(--e-global-color-63559f0);
+    color: var(--e-global-color-accent);
+    &:hover {
+      background-color: var(--e-global-color-accent);
+      color: var(--e-global-color-63559f0);
+      border-color: var(--e-global-color-63559f0);
+    }
+  }
+}

@@ -1,0 +1,19 @@
+#shop-block {
+  #product-archive-block {
+    .woocommerce-result-count {
+      color: var(--e-global-color-text);
+    }
+    form {
+      select {
+        color: var(--e-global-color-text);
+        border: none;
+        &:focus-visible {
+          outline: none;
+        }
+      }
+    }
+    .added_to_cart{
+        display: none;
+    }
+  }
+}
