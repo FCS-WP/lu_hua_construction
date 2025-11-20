@@ -1,7 +1,7 @@
 .shadow-box {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.banner-heading{
+.banner-heading {
   margin-top: 100px;
   @include tablet {
     margin-top: 100px;
@@ -10,6 +10,23 @@
     margin-top: 0px;
   }
 }
-.woocommerce-mini-cart__empty-message{
-    font-size: 18px !important;
+.woocommerce-mini-cart__empty-message {
+  font-size: 18px !important;
+}
+#search-product-archive-block {
+  .woocommerce-result-count {
+    color: var(--e-global-color-text);
+  }
+  form {
+    select {
+      color: var(--e-global-color-text);
+      border: none;
+      &:focus-visible {
+        outline: none;
+      }
+    }
+  }
+  .added_to_cart {
+    display: none;
+  }
 }
