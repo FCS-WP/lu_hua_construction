@@ -7,8 +7,18 @@
     }
   }
 }
-#most-recent-projects-loop{
-    .post-date{
-        margin-bottom: 0px;
+#most-recent-projects-loop {
+  .post-date {
+    margin-bottom: 0px;
+  }
+}
+
+#most-recent-project-block {
+  .portfolio {
+    .elementor-widget-image {
+      a {
+        width: 100%;
+      }
     }
+  }
 }
